@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="atm">
+    <h2>ATM Machine</h2>
+    <div id="screen">Enter PIN</div>
+    <input type="password" id="pin" placeholder="PIN">
+    <button onclick="checkPin()">Submit</button>
+    <div id="actions" style="display:none;">
+        <button onclick="checkBalance()">Check Balance</button>
+        <button onclick="withdraw()">Withdraw</button>
+        <input type="text" id="amount" placeholder="Enter amount">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
